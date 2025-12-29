@@ -1,0 +1,28 @@
+/*navbar*/
+.nav-menu{
+    background-color: #2f2f2f;
+}
+.logo-w{
+    width: 150px;
+}
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: #adadad;
+}
+.navbar-nav {
+    --bs-nav-link-hover-color: #adadad;
+}
+.navbar-toggler {
+    border: var(--bs-border-width) solid #2f2f2f;
+    background-color: #ffffff;
+}
+ @media (min-width: 992px){
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    flex-direction: row-reverse;
+}
+}
+
