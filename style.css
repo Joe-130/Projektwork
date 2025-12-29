@@ -1,71 +1,110 @@
 /*global*/
-.btn-primary{
-    background-color: #045c6b;
-    border: solid 1px #045c6b ;
+
+.btn-primary {
+  background-color: #045c6b;
+  border: solid 1px #045c6b;
 }
-.btn-primary:hover{
-    background-color: #03414d;
-    border: solid 1px #03414d ;
+.btn-primary:hover {
+  background-color: #03414d;
+  border: solid 1px #03414d;
 }
-.btn-outline-secondary{
-    background-color: #ffffff00;
-    border: solid 1px #ffffff;
-    color:#fff
+.btn-outline-secondary {
+  background-color: #ffffff00;
+  border: solid 1px #ffffff;
+  color: #fff;
 }
-.btn-outline-secondary:hover{
-    background-color: #03414d;
-    border: solid 1px #ffffff;
-    color:#fff
+.btn-outline-secondary:hover {
+  background-color: #03414d;
+  border: solid 1px #ffffff;
+  color: #fff;
 }
+.display-6 {
+  font-size: 30px;
+}
+hr {
+  color: #03414d;
+}
+
 /*navbar*/
-.nav-menu{
-    background-color: #2f2f2f;
+
+.nav-menu {
+  background-color: #2f2f2f;
 }
-.logo-w{
-    width: 150px;
+.logo-w {
+  width: 150px;
 }
-.nav-link{
-    color: #fff;
+.nav-link {
+  color: #fff;
 }
-.nav-link:hover{
-    color: #adadad;
+.nav-link:hover {
+  color: #adadad;
 }
 .navbar-nav {
-    --bs-nav-link-hover-color: #adadad;
+  --bs-nav-link-hover-color: #adadad;
 }
 .navbar-toggler {
-    border: var(--bs-border-width) solid #2f2f2f;
-    background-color: #ffffff;
+  border: var(--bs-border-width) solid #2f2f2f;
+  background-color: #ffffff;
 }
- @media (min-width: 992px){
-.navbar-expand-lg .navbar-collapse {
-    display: flex!important;
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
     flex-basis: auto;
     flex-direction: row-reverse;
-}
+  }
 }
 /*hero*/
-.hero-backi{
-    background-image: url(images/projekt-heroback.png);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
-    background-size: cover;
 
+.hero-backi {
+  background-image: url(images/projekt-heroback.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
-.hero-text-back{
-    background-color:#ffffff6b ;
+.hero-text-back {
+  background-color: #ffffff6b;
 }
-h1{
-    font-family: 'Cinzel';
-    color: #fff;
+h1,
+h2 {
+  font-family: "Cinzel";
+  color: #fff;
 }
-.udvozlo-szoveg{
-    color:#fff
+.udvozlo-szoveg {
+  color: #fff;
 }
 .py-7 {
-    padding-top: 6rem !important;
-    padding-bottom: 6rem !important;
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
 }
+/*our offers*/
 
-
+.heti-ebed {
+  background-image: url(images/etlap.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+}
+.etlap {
+  background-image: url(images/Fekete-Barany-Etterem13.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+}
+.borlap {
+  background-image: url(images/wine-541922_1920.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+}
+.itallap {
+  background-image: url(images/pexels-pixabay-301692-scaled-1.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+}
