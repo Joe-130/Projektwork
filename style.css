@@ -1,3 +1,22 @@
+/*global*/
+.btn-primary{
+    background-color: #045c6b;
+    border: solid 1px #045c6b ;
+}
+.btn-primary:hover{
+    background-color: #03414d;
+    border: solid 1px #03414d ;
+}
+.btn-outline-secondary{
+    background-color: #ffffff00;
+    border: solid 1px #ffffff;
+    color:#fff
+}
+.btn-outline-secondary:hover{
+    background-color: #03414d;
+    border: solid 1px #ffffff;
+    color:#fff
+}
 /*navbar*/
 .nav-menu{
     background-color: #2f2f2f;
@@ -25,4 +44,28 @@
     flex-direction: row-reverse;
 }
 }
+/*hero*/
+.hero-backi{
+    background-image: url(images/projekt-heroback.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+
+}
+.hero-text-back{
+    background-color:#ffffff6b ;
+}
+h1{
+    font-family: 'Cinzel';
+    color: #fff;
+}
+.udvozlo-szoveg{
+    color:#fff
+}
+.py-7 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+
 
