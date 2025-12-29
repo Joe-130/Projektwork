@@ -24,6 +24,9 @@
 hr {
   color: #03414d;
 }
+.hr1 {
+  color: #ffffff;
+}
 
 /*navbar*/
 
@@ -108,3 +111,6 @@ h2 {
   background-position-y: center;
   background-size: cover;
 }
+
+/*about the restaurant*/
+
