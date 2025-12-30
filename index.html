@@ -102,7 +102,7 @@
     <div class="container px-4 py-5" id="custom-cards">
       <h3 class="pb-2">Ajánlataink</h3>
       <hr />
-      <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
+      <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 align-items-stretch g-4 py-5">
         <div class="col">
           <div
             class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg heti-ebed"
@@ -158,9 +158,9 @@
     <div class="nav-menu" id="restaurant">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-12 col-sm-8 col-lg-6">
+          <div class="col-12 col-lg-6">
             <img
-              src="/images/etterembelso.jpg"
+              src="images/etterembelso.jpg"
               class="d-block mx-lg-auto img-fluid"
               alt="Az étterem"
               width="700"
@@ -197,7 +197,7 @@
     <div class="nav-menu pb-5">
       <div class="container col-xxl-8 px-4">
         <div class="row align-items-center g-5 pb-5">
-          <div class="col-12 col-sm-8 col-lg-6">
+          <div class="col-12 col-lg-6">
             <img
               src="images/chef.jpg"
               class="d-block mx-lg-auto img-fluid"
@@ -260,6 +260,14 @@
               />
               <label for="floatingInput">Email cím</label>
             </div>
+             <div class="form-floating mb-3">
+              <input
+                type="tel"
+                class="form-control"
+                placeholder="Telefonszám"
+              />
+              <label for="floatingPhoneNumber">Telefonszám</label>
+            </div>
             <div class="form-floating mb-3">
               <input
                 type="text"
@@ -268,13 +276,31 @@
               />
               <label for="floatingPassword">Név</label>
             </div>
+            <div class="form-floating mb-3">
+              <input
+                type="datetime-local"
+                class="form-control"
+                placeholder="Időpont"
+              />
+              <label for="floatingDate&Time">Foglalás dátuma, és időpontja:</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="number"
+                min = "1"
+                min = "8"
+                class="form-control"
+                placeholder="Fő"
+              />
+              <label for="floatingPerson">Add meg hány főre terítsünk</label>
+            </div>
             <div class="checkbox mb-3">
               <label>
                 <input type="checkbox" value="remember-me" /> Elfogadom az A Bárány Étterem Adatkezelési tájékoztatóját.
               </label>
             </div>
             <button class="w-100 btn btn-lg btn-primary" type="submit">
-              Sign up
+              Lefoglalom
             </button>
             <hr class="my-4" />
             <small class="text-body-secondary"
