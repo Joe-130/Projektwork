@@ -112,6 +112,18 @@ h2 {
   background-size: cover;
 }
 
-/*about the restaurant*/
+/*contact*/
 
-
+.contact-list{
+  color: #fff;
+}
+i{
+  padding-right: 12px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+li{
+  padding-bottom: 8px;
+}
