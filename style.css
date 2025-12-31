@@ -5,7 +5,7 @@
   border: solid 1px #045c6b;
 }
 .btn-primary:hover {
-  background-color: #03414d!important;
+  background-color: #03414d !important;
   border: solid 1px #03414d;
 }
 .btn-outline-secondary {
@@ -149,6 +149,21 @@ li {
   margin-right: 10px;
   margin-bottom: 40px;
 }
+@media (max-width: 576px) {
+  #footer-m {
+    display: flex;
+    flex-direction: column;
+  }
+  #footer-menu {
+    display: flex;
+    justify-content: center !important;
+  }
+}
+#footer-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /*szallas-hero*/
 .hero-szallas {
   background-image: url(images/szallahero.png);
@@ -159,6 +174,6 @@ li {
   background-attachment: fixed;
 }
 /*szallas infók*/
-.szallas-lista>p{
+.szallas-lista > p {
   color: #fff;
 }
