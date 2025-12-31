@@ -54,10 +54,14 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#restaurant">Éttrem</a>
+              <a class="nav-link" aria-current="page" href="index.html#restaurant"
+                >Éttrem</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#asztalfoglalas-barany">Asztalfoglalás</a>
+              <a class="nav-link" href="index.html#asztalfoglalas-barany"
+                >Asztalfoglalás</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="szallas.html">Szálláshely</a>
@@ -70,11 +74,11 @@
       </div>
     </nav>
     <!--hero-->
-    <div class="px-4 py-7 text-center hero-backi">
+    <div class="px-4 py-7 text-center hero-szallas">
       <h1 class="display-5 fw-bold">
         <font dir="auto" style="vertical-align: inherit"
           ><font dir="auto" style="vertical-align: inherit"
-            >Üdvözöljük a Fekete Bárány <br />Étteremben</font
+            >Üdvözöljük a Fekete Bárány <br />Superiorban <sup>****</sup></font
           ></font
         >
       </h1>
@@ -92,167 +96,170 @@
           >
         </p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center py-4">
-          <a href="#asztalfoglalas-barany"><button type="button" class="btn btn-primary btn-lg px-4 gap-3">
-            <font dir="auto" style="vertical-align: inherit"
-              ><font dir="auto" style="vertical-align: inherit"
-                >Asztalfoglalás</font
-              ></font
+          <a href="#asztalfoglalas-barany"
+            ><button type="button" class="btn btn-primary btn-lg px-4 gap-3">
+              <font dir="auto" style="vertical-align: inherit"
+                ><font dir="auto" style="vertical-align: inherit"
+                  >Szállásfoglalás</font
+                ></font
+              >
+            </button></a
+          >
+          <a href="#contact-barany"
+            ><button
+              type="button"
+              class="btn btn-outline-secondary btn-lg px-4"
             >
-          </button></a>
-          <a href="#contact-barany"><button type="button" class="btn btn-outline-secondary btn-lg px-4">
-            <font dir="auto" style="vertical-align: inherit"
-              ><font dir="auto" style="vertical-align: inherit"
-                >Kapcsolat</font
-              ></font
-            >
-          </button></a>
+              <font dir="auto" style="vertical-align: inherit"
+                ><font dir="auto" style="vertical-align: inherit"
+                  >Kapcsolat</font
+                ></font
+              >
+            </button></a
+          >
         </div>
       </div>
     </div>
 
-    <!--our offers-->
-
-    <div class="container px-4 py-5" id="custom-cards">
-      <h3 class="pb-2">Ajánlataink</h3>
-      <hr />
-      <div
-        class="row row-cols-1 row-cols-lg-4 row-cols-md-2 align-items-stretch g-4 py-5"
-      >
-        <div class="col">
-          <div
-            class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg heti-ebed"
-          >
-            <div
-              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
-            >
-              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                Heti ebéd ajánlat
-              </h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div
-            class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg etlap"
-          >
-            <div
-              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
-            >
-              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Étlap</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div
-            class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg borlap"
-          >
-            <div
-              class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1"
-            >
-              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Borlap</h2>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div
-            class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg itallap"
-          >
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Itallap</h2>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--about the restaurant-->
+    <!--about the hotel-->
 
     <div class="nav-menu" id="restaurant">
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-12 col-lg-6">
-            <img
-              src="images/etterembelso.jpg"
-              class="d-block mx-lg-auto img-fluid shadow-lg"
-              alt="Az étterem"
-              width="700"
-              loading="lazy"
-            />
+            <div
+              id="carouselExampleAutoplaying"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="images/szallas/IMG_6612-edit-1-2.webp"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/szallas/IMG_6641-edit-1-3.webp"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/szallas/IMG_6684-edit-1-2.webp"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="images/szallas/IMG_6707-edit-1-5.webp"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
           <div class="col-lg-6">
-            <h1 class="mb-4 display-6 lh-1 fw-bold">Az Étterem</h1>
+            <h1 class="mb-4 display-6 lh-1 fw-bold">
+              a Fekete Bárány Superior <sup>****</sup>
+            </h1>
             <hr class="hr1" />
             <p class="udvozlo-szoveg">
-              A Bárány konyhája, egyesíti a hagyományokat és a modern
-              gasztronómiát, mind hazai illetve nemzetközi viszonylatban.
+              Superior szobáink kényelmes és igényesen kialakított elhelyezést
+              biztosítanak vendégeink számára. Összesen 4 db superior szoba áll
+              rendelkezésre, melyek közül 2 db kétágyas és 2 db franciaágyas
+              kialakítású. A szobák ideális választást jelentenek pároknak,
+              barátoknak vagy üzleti utazóknak egyaránt, akik a nyugodt pihenést
+              és a magasabb komfortszintet részesítik előnyben.
             </p>
-            <p class="udvozlo-szoveg">
-              Saját tenyésztésű bárányból és a legfrisseb alapanyagokból készült
-              ételeink garantálják a tökéletes gastro élményt, legyen szó a
-              szezonális vacsora étlapunkról, vagy a napi ebéd ajánlatunkról.
+            <p class="d-inline-flex gap-1">
+              <a
+                class="btn btn-primary"
+                data-bs-toggle="collapse"
+                href="#collapseExample"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                Foglalási információk
+                <i class="fa-solid fa-circle-arrow-down"></i>
+              </a>
             </p>
-            <p class="udvozlo-szoveg">
-              Ezeken felül tematikus és napi ajánlatainkkal szeretnénk
-              vendégeinket különleges kulináris kalandozásra csábítani
-            </p>
-            <h2>A hely ahol szívesen látjuk</h2>
-            <p class="udvozlo-szoveg">
-              <i class="fa-solid fa-utensils"></i> Belső éttermi rész:
-              <strong> 50 fő</strong>
-            </p>
-            <p class="udvozlo-szoveg">
-              <i class="fa-solid fa-people-roof"></i> Rendezvényterem:
-              <strong>100 fő</strong>
-            </p>
+            <div class="collapse" id="collapseExample">
+              <div>
+                <ul>
+                  <li class="szallas-lista">
+                    <p>
+                      <i class="fa-regular fa-circle fa-xs"></i> Legalább 2
+                      éjszakára szóló foglalásokat tudunk fogadni,
+                    </p>
+                  </li>
+                  <li class="szallas-lista">
+                    <p>
+                      <i class="fa-regular fa-circle fa-xs"></i> A szoba
+                      igénybevételére vonatkozó igényt legalább 3 nappal az
+                      érkezést megelőzően véglegesíteni szükséges.
+                    </p>
+                  </li>
+                  <li class="szallas-lista">
+                    <p>
+                      <i class="fa-regular fa-circle fa-xs"></i> A szobákat
+                      14:00 után van lehetőség elfoglalni, valamint a távozás
+                      napján 11:00-ig kell elhagyni azt.
+                    </p>
+                  </li>
+                  <li class="szallas-lista">
+                    <p>
+                      <i class="fa-regular fa-circle fa-xs"></i> Előzetes
+                      egyeztetés alapján foglaláskor jelezve reggeli
+                      igényelhető.
+                    </p>
+                  </li>
+                  <li class="szallas-lista">
+                    <p>
+                      <i class="fa-regular fa-circle fa-xs"></i> Fizetési módok:
+                      készpénz, bankkártya, SZÉP kártya
+                    </p>
+                  </li>
+                  <li class="szallas-lista">
+                    <p>
+                      <i class="fa-regular fa-circle fa-xs"></i>
+                      <strong>Díja: 12.000 Ft / fő / éj</strong>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
             <hr class="hr1" />
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-              Étlap
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--the chef-->
-
-    <div class="nav-menu pb-5">
-      <div class="container col-xxl-8 px-4">
-        <div class="row align-items-center g-5 pb-5">
-          <div class="col-12 col-lg-6">
-            <img
-              src="images/chef.jpg"
-              class="d-block mx-lg-auto img-fluid shadow-lg"
-              alt="Konyhafőnök"
-              width="700"
-              loading="lazy"
-            />
-          </div>
-          <div class="col-lg-6">
-            <h2 class="mb-4 display-6 lh-1 fw-bold">A konyhafőnök</h2>
-            <hr class="hr1" />
-            <p class="udvozlo-szoveg">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
-            <p class="udvozlo-szoveg">
-              has survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
-            </p>
-            <p class="udvozlo-szoveg">
-              It was popularised in the 1960s with the release of Letraset
-              sheets containing Lorem Ipsum passages, and more recently with
-              desktop publishing software like Aldus PageMaker including
-              versions of Lorem Ipsum.
-            </p>
-            <hr class="hr1" />
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-              Asztalfoglalás
-            </button>
           </div>
         </div>
       </div>
@@ -260,11 +267,14 @@
 
     <!--table reservation-->
 
-    <div class="container col-xl-10 col-xxl-8 px-4 py-5" id="asztalfoglalas-barany">
+    <div
+      class="container col-xl-10 col-xxl-8 px-4 py-5"
+      id="asztalfoglalas-barany"
+    >
       <div class="row align-items-center g-lg-5 py-5">
         <div class="col-lg-12 text-center">
           <h3 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">
-            Asztalfoglalás
+            Szállásfoglalás
           </h3>
           <p class="col-lg-12">
             Below is an example form built entirely with Bootstrap’s form
@@ -297,14 +307,12 @@
               <label for="floatingPassword">Név</label>
             </div>
             <div class="form-floating mb-3">
-              <input
-                type="datetime-local"
-                class="form-control"
-                placeholder="Időpont"
-              />
-              <label for="floatingDate&Time"
-                >Foglalás dátuma, és időpontja:</label
-              >
+              <input type="date" class="form-control" placeholder="Időpont" />
+              <label for="floatingDate&Time">Érkezés dátuma:</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="date" class="form-control" placeholder="Időpont" />
+              <label for="floatingDate&Time">Távozás dátuma:</label>
             </div>
             <div class="form-floating mb-3">
               <input
@@ -314,7 +322,7 @@
                 class="form-control"
                 placeholder="Fő"
               />
-              <label for="floatingPerson">Add meg hány főre terítsünk</label>
+              <label for="floatingPerson">Hány fő?</label>
             </div>
             <div class="checkbox mb-3">
               <label>
@@ -327,7 +335,7 @@
             </button>
             <hr class="my-4" />
             <small class="text-body-secondary"
-              >Aztalfoglalást minden esetben e-mailben visszaigazolással
+              >A foglalást minden esetben e-mailben visszaigazolással
               véglegesítjük, ha ez nem történik meg, vegye fel velünk a
               kapcsolatot telefonon.</small
             >
@@ -391,22 +399,38 @@
           <img src="images/logoFB.png" alt="Fekete Bárány logó" width="70px" />
           <ul class="nav col-md-4 justify-content-end">
             <li class="nav-item">
-              <a href="index.html#restaurant" class="nav-link px-2 udvozlo-szoveg">Étterem</a>
+              <a href="index.html#restaurant" class="nav-link px-2 udvozlo-szoveg"
+                >Étterem</a
+              >
             </li>
             <li class="nav-item">
-              <a href="index.html#asztalfoglalas-barany" class="nav-link px-2 udvozlo-szoveg">Asztalfoglalás</a>
+              <a
+                href=index.html#asztalfoglalas-barany"
+                class="nav-link px-2 udvozlo-szoveg"
+                >Asztalfoglalás</a
+              >
             </li>
             <li class="nav-item">
-              <a href="szallas.html" class="nav-link px-2 udvozlo-szoveg">Szálláshely</a>
+              <a href="#" class="nav-link px-2 udvozlo-szoveg">Szálláshely</a>
             </li>
             <li class="nav-item">
-              <a href="#contact-barany" class="nav-link px-2 udvozlo-szoveg">Kapcsolat</a>
+              <a href="#contact-barany" class="nav-link px-2 udvozlo-szoveg"
+                >Kapcsolat</a
+              >
             </li>
           </ul>
         </footer>
       </div>
       <!--back to top-->
-    <div id="back-t-top"><a href="#"><i class="fa-solid fa-circle-chevron-up fa-2xl" id="back-t-t-icon" style="color: #545454;"></i></a></div>
+      <div id="back-t-top">
+        <a href="#"
+          ><i
+            class="fa-solid fa-circle-chevron-up fa-2xl"
+            id="back-t-t-icon"
+            style="color: #545454"
+          ></i
+        ></a>
+      </div>
     </div>
   </body>
 </html>

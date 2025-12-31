@@ -149,3 +149,16 @@ li {
   margin-right: 10px;
   margin-bottom: 40px;
 }
+/*szallas-hero*/
+.hero-szallas {
+  background-image: url(images/szallahero.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/*szallas infók*/
+.szallas-lista>p{
+  color: #fff;
+}
