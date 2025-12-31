@@ -5,7 +5,7 @@
   border: solid 1px #045c6b;
 }
 .btn-primary:hover {
-  background-color: #03414d;
+  background-color: #03414d!important;
   border: solid 1px #03414d;
 }
 .btn-outline-secondary {
@@ -114,20 +114,38 @@ h2 {
 
 /*contact*/
 
-.contact-list{
+.contact-list {
   color: #fff;
 }
-i{
+i {
   padding-right: 12px;
 }
 ul {
-    list-style-type: none;
-    padding-left: 0px;
+  list-style-type: none;
+  padding-left: 0px;
 }
-li{
+li {
   padding-bottom: 8px;
 }
+#contact-barany {
+  background-image: url(images/contact-back.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+}
+
 /*footer*/
-#footer-barany{
+
+#footer-barany {
   background-color: #1e1e1e;
+}
+#back-t-top {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+#back-t-t-icon {
+  margin-right: 10px;
+  margin-bottom: 40px;
 }
